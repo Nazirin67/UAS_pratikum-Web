@@ -1,0 +1,123 @@
+/* admin.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 30px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Header Styles */
+.card-header {
+    border-radius: 15px 15px 0 0;
+}
+
+/* Card Body Styles */
+.card-body h5 {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.card-body .card-text {
+    color: #6c757d;
+}
+
+.meta-info {
+    font-size: 0.9rem;
+    color: #495057;
+}
+
+/* Trending Articles Section */
+.trending-articles {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.trending-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.trending-item:last-child {
+    border-bottom: none;
+}
+
+.trending-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.trending-item a:hover {
+    text-decoration: underline;
+}
+
+/* Pagination Styles */
+.pagination {
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.pagination .page-link {
+    border-radius: 50px;
+    margin: 0 5px;
+}
+
+.pagination .active .page-link {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pagination .page-link:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
